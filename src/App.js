@@ -46,9 +46,7 @@ function App() {
   const [employees, setEmployees] = useState([]);
 
   const addEmployee = (employee) => {
-    console.log(employee);
     setEmployees([...employees, employee]);
-    console.log(employees);
   }
 
   return (

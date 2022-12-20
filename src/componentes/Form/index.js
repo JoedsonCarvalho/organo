@@ -13,7 +13,6 @@ const Form = (props) => {
 
     const whenSaving = (e) => {
         e.preventDefault();
-        console.log('Form was send => ',name,role,image,squad);
         props.whenRegisteredEmployee({name,role,image,squad})
         setName('');
         setRole('');

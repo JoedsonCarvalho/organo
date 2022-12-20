@@ -1,11 +1,8 @@
 import './TextField.css'
 
 const FieldText = (props) => {
-    console.log(props);
 
     const whenTyped = (e) => {
-        // setValue(e.target.value);
-        // console.log(value);
         props.whenChanging(e.target.value);
 
     }
